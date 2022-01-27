@@ -1,0 +1,1 @@
+This is the Homework for day 12 on the Automation Incubator course.
