@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.endava.calculator.CalculatorTestIT
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.425 s <<< FAILURE! - in com.endava.calculator.CalculatorTestIT
+com.endava.calculator.CalculatorTestIT.shouldMultiplyMoreThan2Operands(int, int, int,Long)  Time elapsed: 0.035 s  <<< ERROR!
+org.junit.platform.commons.PreconditionViolationException: Classpath resource [numberSource2.csv] does not exist
+
+com.endava.calculator.CalculatorTestIT.shouldMultiplyWithNegativeNumbers  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <is a value equal to or greater than <8L>>
+	at mavenCalc@1.0-SNAPSHOT/com.endava.calculator.CalculatorTestIT.shouldMultiplyWithNegativeNumbers(CalculatorTestIT.java:149)
+
+com.endava.calculator.CalculatorTestIT.shouldFactorialWith0  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is <0>
+     but: was <1.0>
+	at mavenCalc@1.0-SNAPSHOT/com.endava.calculator.CalculatorTestIT.shouldFactorialWith0(CalculatorTestIT.java:246)
+
+com.endava.calculator.CalculatorTestIT.shouldFactorialWithNegative  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalArgumentException: You can't calculate factorial from a negative number
+	at mavenCalc@1.0-SNAPSHOT/com.endava.calculator.CalculatorTestIT.shouldFactorialWithNegative(CalculatorTestIT.java:254)
+
